@@ -1,10 +1,21 @@
-import org.xml.sax.SAXException;
+import javafx.application.Application;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.IOException;
-public class Main {
-    public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
-        xmlParser xmlparser = new xmlParser();
-        xmlparser.ParseXML();
+public class Main extends Application {
+    public static void main(String[] args) {
+        Application.launch();
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        FXMLLoader loader = new FXMLLoader(
+                getClass().getResource("BookCollection.fxml"));
+        Parent root = loader.load();
+        primaryStage.setScene(new Scene(root));
+        primaryStage.show();
     }
 }

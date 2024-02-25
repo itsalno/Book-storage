@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782ab579-c9c0-4697-b30d-60a42e2a24df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Book storage.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="782ab579-c9c0-4697-b30d-60a42e2a24df" name="Changes" comment="Created xml file with data and parsed it.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xmlParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +55,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Book storage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Book storage" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,11 +66,30 @@
       <updated>1708418572620</updated>
       <workItem from="1708418573635" duration="823000" />
       <workItem from="1708422201081" duration="1092000" />
-      <workItem from="1708423341044" duration="1013000" />
+      <workItem from="1708423341044" duration="1806000" />
+      <workItem from="1708436897433" duration="853000" />
+      <workItem from="1708454061687" duration="626000" />
+      <workItem from="1708810606028" duration="76000" />
+      <workItem from="1708817958536" duration="8000" />
+      <workItem from="1708894261323" duration="7000" />
+      <workItem from="1708894332819" duration="315000" />
     </task>
+    <task id="LOCAL-00001" summary="Created xml file with data and parsed it.">
+      <option name="closed" value="true" />
+      <created>1708432925011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708432925011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created xml file with data and parsed it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created xml file with data and parsed it." />
   </component>
 </project>
