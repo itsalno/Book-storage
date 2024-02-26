@@ -1,33 +1,38 @@
 <library>
-    <book id="1">
+    <book>
+        <id>1</id>
         <title>The Great Gatsby</title>
         <writer>F. Scott Fitzgerald</writer>
         <lix>65</lix>
         <pages>180</pages>
         <timesLended>10</timesLended>
     </book>
-    <book id="2">
+    <book>
+        <id>2</id>
         <title>To Kill a Mockingbird</title>
         <writer>Harper Lee</writer>
         <lix>55</lix>
         <pages>281</pages>
         <timesLended>7</timesLended>
     </book>
-    <book id="3">
+    <book>
+        <id>3</id>
         <title>Nineteen Eighty-Four</title>
         <writer>George Orwell</writer>
         <lix>70</lix>
         <pages>300</pages>
         <timesLended>8</timesLended>
     </book>
-    <book id="4">
+    <book>
+        <id>4</id>
         <title>Stranger</title>
         <writer>Albert Camus</writer>
         <lix>80</lix>
         <pages>250</pages>
         <timesLended>7</timesLended>
     </book>
-    <book id="5">
+    <book>
+        <id>5</id>
         <title>The Plague</title>
         <writer>Albert Camus</writer>
         <lix>85</lix>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="BCController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BCController">
+   <children>
+      <TableView fx:id="tableinfo" layoutX="98.0" layoutY="78.0" prefHeight="256.0" prefWidth="436.0">
+        <columns>
+          <TableColumn fx:id="idcollumn" prefWidth="33.0" text="Title" />
+            <TableColumn fx:id="titleColumn" minWidth="6.0" prefWidth="146.0" text="Ttitle" />
+            <TableColumn fx:id="writerColumn" prefWidth="161.0" text="Writer" />
+            <TableColumn fx:id="pagesColumn" prefWidth="53.0" text="Pages" />
+        </columns>
+      </TableView>
+   </children>
 </AnchorPane>
