@@ -1,5 +1,4 @@
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.ParserConfigurationException;
 import org.w3c.dom.Document;
@@ -14,8 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class xmlParser {
-    public List<String> parseXML() throws ParserConfigurationException, IOException, SAXException {
-        List<String> bookInfoList = new ArrayList<>();
+    public List<Book> parseXML() throws ParserConfigurationException, IOException, SAXException {
+        List<Book> books = new ArrayList<>();
         File xmlFile = new File("src/books.xml");
         DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = builderFactory.newDocumentBuilder();
@@ -30,16 +29,15 @@ public class xmlParser {
 
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                 Element eElement = (Element) nNode;
-                String make = eElement.getAttribute("make");
                 String title = eElement.getElementsByTagName("title").item(0).getTextContent();
                 String writer = eElement.getElementsByTagName("writer").item(0).getTextContent();
-                String pages = eElement.getElementsByTagName("pages").item(0).getTextContent();
+                int pages = Integer.parseInt(eElement.getElementsByTagName("pages").item(0).getTextContent());
+                int id=Integer.parseInt(eElement.getElementsByTagName("id").item(0).getTextContent());
 
-                String bookInfo = "Make: " + make + ", Title: " + title + ", Writer: " + writer + ", Pages: " + pages;
-                bookInfoList.add(bookInfo);
+                books.add(new Book(id,title, writer, pages));
             }
         }
-        return bookInfoList;
+        return books;
     }
 }
 

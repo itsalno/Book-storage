@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782ab579-c9c0-4697-b30d-60a42e2a24df" name="Changes" comment="Created xml file with data and parsed it.">
+    <list default="true" id="782ab579-c9c0-4697-b30d-60a42e2a24df" name="Changes" comment="Created fxml file and added simple table.Created Book class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BCController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BCController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookCollection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookCollection.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/books.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/books.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/xmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xmlParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -79,7 +77,11 @@
       <workItem from="1708900999650" duration="6000" />
       <workItem from="1708935192411" duration="10000" />
       <workItem from="1708966775220" duration="432000" />
-      <workItem from="1708972164906" duration="3172000" />
+      <workItem from="1708972164906" duration="3446000" />
+      <workItem from="1708976377169" duration="599000" />
+      <workItem from="1709022348609" duration="16000" />
+      <workItem from="1709032015516" duration="1229000" />
+      <workItem from="1709115889955" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Created xml file with data and parsed it.">
       <option name="closed" value="true" />
@@ -97,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708894912849</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created fxml file and added simple table.Created Book class.">
+      <option name="closed" value="true" />
+      <created>1708976268687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708976268687</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created xml file with data and parsed it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created xml file with data and parsed it." />
+    <MESSAGE value="Created fxml file and added simple table.Created Book class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created fxml file and added simple table.Created Book class." />
   </component>
 </project>
